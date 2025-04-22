@@ -6,14 +6,17 @@
   }
   .productView .productView-image {
       width: 75%!important;
-      margin-right: 1rem;
+      margin: 0!important;
+      margin-right: 1rem!important;
+     
   }
 }
 
 
 .productView .productView-thumbnail-link {
-    height: 10rem;
-    width: 10rem;
+    height: 10rem!important;
+    width: 10rem!important;
+    background-color: red;
 }
 
 .productView .productView-thumbnails img {
