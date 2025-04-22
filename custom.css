@@ -1,14 +1,11 @@
 
 
 @media (min-width: 1261px) {
-  .productView .productView-thumbnails {
-      -ms-flex-flow: column;
-      flex-flow: column;
-      margin-top: 0;
-      width: 25%;
+  .productView-thumbnails {
+      width: 25%!important;
   }
   .productView .productView-image {
-      width: 75%;
+      width: 75%!important;
       margin-right: 1rem;
   }
 }
