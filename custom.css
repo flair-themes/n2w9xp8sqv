@@ -1,0 +1,25 @@
+
+
+@media (min-width: 1261px) {
+  .productView .productView-thumbnails {
+      -ms-flex-flow: column;
+      flex-flow: column;
+      margin-top: 0;
+      width: 25%;
+  }
+  .productView .productView-image {
+      width: 75%;
+      margin-right: 1rem;
+  }
+}
+
+
+.productView .productView-thumbnail-link {
+    height: 10rem;
+    width: 10rem;
+}
+
+.productView .productView-thumbnails img {
+    max-width: 10rem;
+    max-height: 10rem;
+}
